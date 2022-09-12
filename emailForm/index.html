@@ -8,21 +8,27 @@
   </head>
   <body>
     <div>
-      <label for="name">Name:</label>
+      <label for="name">Name:</label><br>
       <input id="name" type="text" name="name" />
     </div>
     <div>
-      <label for="email">Email:</label>
+      <label for="email">Email:</label><br>
       <input id="email" type="text" name="email" />
     </div>
     <form>
-      <label for="form-message">Your Message:</label>
+      <label for="form-message">Your Message:</label> <br>
       <textarea id="form-message" name="message"></textarea>
+      <button type="submit"> Submit!</button>
     </form>
     <style>
-      textarea {
+      input, textarea {
+        vertical-align: middle;
+        width: 100%;
+    }
+    #form-message{
         height: 100px;
-      }
+    }
+      
     </style>
   </body>
 </html>
